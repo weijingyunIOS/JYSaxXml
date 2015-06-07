@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E0F0AB58-4B14-4703-8526-E855F8FA095C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JYSaxXmlDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8AC9AFE23BD5999C2E0706E6BA7CFDAEBF584A2B</key>
+		<string>https://github.com/weijingyunIOS/JYSaxXml.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JYSaxXmlDemo/JYSaxXmlDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8AC9AFE23BD5999C2E0706E6BA7CFDAEBF584A2B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/weijingyunIOS/JYSaxXml.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8AC9AFE23BD5999C2E0706E6BA7CFDAEBF584A2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8AC9AFE23BD5999C2E0706E6BA7CFDAEBF584A2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JYSaxXml</string>
+		</dict>
+	</array>
+</dict>
+</plist>
