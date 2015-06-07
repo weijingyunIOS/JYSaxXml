@@ -3,4 +3,4 @@
 1. 解析如下xml
 !(http://github.com/weijingyunIOS/MyDescribe/raw/master/JYSaxXml/Snip20150608_3.png)
 
-!(http://pic.nipic.com/2007-11-09/2007119124513598_2.jpg)
+![xml1](http://images.cnblogs.com/cnblogs_com/weijingyun/698861/o_Snip20150608_3.png)
