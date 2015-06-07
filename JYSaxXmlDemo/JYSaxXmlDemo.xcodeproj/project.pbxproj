@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647F37321B245AC500FBA5BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F37311B245AC500FBA5BC /* main.m */; };
+		647F37351B245AC500FBA5BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F37341B245AC500FBA5BC /* AppDelegate.m */; };
+		647F37381B245AC500FBA5BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F37371B245AC500FBA5BC /* ViewController.m */; };
+		647F373B1B245AC500FBA5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647F37391B245AC500FBA5BC /* Main.storyboard */; };
+		647F373D1B245AC500FBA5BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647F373C1B245AC500FBA5BC /* Images.xcassets */; };
+		647F37401B245AC500FBA5BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647F373E1B245AC500FBA5BC /* LaunchScreen.xib */; };
+		647F374C1B245AC500FBA5BC /* JYSaxXmlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F374B1B245AC500FBA5BC /* JYSaxXmlDemoTests.m */; };
+		647F375C1B245AE200FBA5BC /* JYSaxConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F37571B245AE200FBA5BC /* JYSaxConst.m */; };
+		647F37621B245B6B00FBA5BC /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F37611B245B6B00FBA5BC /* Video.m */; };
+		64B0B7DB1B245E3400EDCDA2 /* CityWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B7DA1B245E3400EDCDA2 /* CityWeather.m */; };
+		64B0B7E11B24680B00EDCDA2 /* SAXOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B7E01B24680B00EDCDA2 /* SAXOne.m */; };
+		64B0B7E41B24699300EDCDA2 /* CityDescribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B7E31B24699300EDCDA2 /* CityDescribe.m */; };
+		64B0B7E71B246AAE00EDCDA2 /* SAXOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B7E61B246AAE00EDCDA2 /* SAXOther.m */; };
+		64B0B7EA1B24782100EDCDA2 /* NSString+SEL.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B7E91B24782100EDCDA2 /* NSString+SEL.m */; };
+		64B0B7ED1B24879C00EDCDA2 /* NSDictionary+JYSAX.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B7EC1B24879C00EDCDA2 /* NSDictionary+JYSAX.m */; };
+		64B0B7F01B2495A000EDCDA2 /* Hehe.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B7EF1B2495A000EDCDA2 /* Hehe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		647F37461B245AC500FBA5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647F37241B245AC500FBA5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647F372B1B245AC500FBA5BC;
+			remoteInfo = JYSaxXmlDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		647F372C1B245AC500FBA5BC /* JYSaxXmlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYSaxXmlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		647F37301B245AC500FBA5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647F37311B245AC500FBA5BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		647F37331B245AC500FBA5BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		647F37341B245AC500FBA5BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		647F37361B245AC500FBA5BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		647F37371B245AC500FBA5BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		647F373A1B245AC500FBA5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		647F373C1B245AC500FBA5BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		647F373F1B245AC500FBA5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		647F37451B245AC500FBA5BC /* JYSaxXmlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYSaxXmlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		647F374A1B245AC500FBA5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647F374B1B245AC500FBA5BC /* JYSaxXmlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYSaxXmlDemoTests.m; sourceTree = "<group>"; };
+		647F37561B245AE200FBA5BC /* JYSaxConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSaxConst.h; sourceTree = "<group>"; };
+		647F37571B245AE200FBA5BC /* JYSaxConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSaxConst.m; sourceTree = "<group>"; };
+		647F37601B245B6B00FBA5BC /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		647F37611B245B6B00FBA5BC /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		64B0B7D91B245E3400EDCDA2 /* CityWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityWeather.h; sourceTree = "<group>"; };
+		64B0B7DA1B245E3400EDCDA2 /* CityWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityWeather.m; sourceTree = "<group>"; };
+		64B0B7DF1B24680B00EDCDA2 /* SAXOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXOne.h; sourceTree = "<group>"; };
+		64B0B7E01B24680B00EDCDA2 /* SAXOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXOne.m; sourceTree = "<group>"; };
+		64B0B7E21B24699300EDCDA2 /* CityDescribe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDescribe.h; sourceTree = "<group>"; };
+		64B0B7E31B24699300EDCDA2 /* CityDescribe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDescribe.m; sourceTree = "<group>"; };
+		64B0B7E51B246AAE00EDCDA2 /* SAXOther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAXOther.h; sourceTree = "<group>"; };
+		64B0B7E61B246AAE00EDCDA2 /* SAXOther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAXOther.m; sourceTree = "<group>"; };
+		64B0B7E81B24782100EDCDA2 /* NSString+SEL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SEL.h"; path = "JYSaxXmlDemo/JYSaxXml/NSString+SEL.h"; sourceTree = SOURCE_ROOT; };
+		64B0B7E91B24782100EDCDA2 /* NSString+SEL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SEL.m"; path = "JYSaxXmlDemo/JYSaxXml/NSString+SEL.m"; sourceTree = SOURCE_ROOT; };
+		64B0B7EB1B24879C00EDCDA2 /* NSDictionary+JYSAX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JYSAX.h"; sourceTree = "<group>"; };
+		64B0B7EC1B24879C00EDCDA2 /* NSDictionary+JYSAX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JYSAX.m"; sourceTree = "<group>"; };
+		64B0B7EE1B2495A000EDCDA2 /* Hehe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hehe.h; sourceTree = "<group>"; };
+		64B0B7EF1B2495A000EDCDA2 /* Hehe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hehe.m; sourceTree = "<group>"; };
+		64B0B7F11B24AB6500EDCDA2 /* JYSaxXml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYSaxXml.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		647F37291B245AC500FBA5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647F37421B245AC500FBA5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		647F37231B245AC500FBA5BC = {
+			isa = PBXGroup;
+			children = (
+				647F372E1B245AC500FBA5BC /* JYSaxXmlDemo */,
+				647F37481B245AC500FBA5BC /* JYSaxXmlDemoTests */,
+				647F372D1B245AC500FBA5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		647F372D1B245AC500FBA5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				647F372C1B245AC500FBA5BC /* JYSaxXmlDemo.app */,
+				647F37451B245AC500FBA5BC /* JYSaxXmlDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		647F372E1B245AC500FBA5BC /* JYSaxXmlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				647F37551B245AE200FBA5BC /* JYSaxXml */,
+				647F375F1B245B6B00FBA5BC /* Model */,
+				647F37331B245AC500FBA5BC /* AppDelegate.h */,
+				647F37341B245AC500FBA5BC /* AppDelegate.m */,
+				647F37361B245AC500FBA5BC /* ViewController.h */,
+				647F37371B245AC500FBA5BC /* ViewController.m */,
+				647F37391B245AC500FBA5BC /* Main.storyboard */,
+				647F373C1B245AC500FBA5BC /* Images.xcassets */,
+				647F373E1B245AC500FBA5BC /* LaunchScreen.xib */,
+				647F372F1B245AC500FBA5BC /* Supporting Files */,
+			);
+			path = JYSaxXmlDemo;
+			sourceTree = "<group>";
+		};
+		647F372F1B245AC500FBA5BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647F37301B245AC500FBA5BC /* Info.plist */,
+				647F37311B245AC500FBA5BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		647F37481B245AC500FBA5BC /* JYSaxXmlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				647F374B1B245AC500FBA5BC /* JYSaxXmlDemoTests.m */,
+				647F37491B245AC500FBA5BC /* Supporting Files */,
+			);
+			path = JYSaxXmlDemoTests;
+			sourceTree = "<group>";
+		};
+		647F37491B245AC500FBA5BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647F374A1B245AC500FBA5BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		647F37551B245AE200FBA5BC /* JYSaxXml */ = {
+			isa = PBXGroup;
+			children = (
+				647F37561B245AE200FBA5BC /* JYSaxConst.h */,
+				647F37571B245AE200FBA5BC /* JYSaxConst.m */,
+				64B0B7E81B24782100EDCDA2 /* NSString+SEL.h */,
+				64B0B7E91B24782100EDCDA2 /* NSString+SEL.m */,
+				64B0B7EB1B24879C00EDCDA2 /* NSDictionary+JYSAX.h */,
+				64B0B7EC1B24879C00EDCDA2 /* NSDictionary+JYSAX.m */,
+				64B0B7DF1B24680B00EDCDA2 /* SAXOne.h */,
+				64B0B7E01B24680B00EDCDA2 /* SAXOne.m */,
+				64B0B7E51B246AAE00EDCDA2 /* SAXOther.h */,
+				64B0B7E61B246AAE00EDCDA2 /* SAXOther.m */,
+				64B0B7F11B24AB6500EDCDA2 /* JYSaxXml.h */,
+			);
+			path = JYSaxXml;
+			sourceTree = "<group>";
+		};
+		647F375F1B245B6B00FBA5BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B0B7EE1B2495A000EDCDA2 /* Hehe.h */,
+				64B0B7EF1B2495A000EDCDA2 /* Hehe.m */,
+				64B0B7E21B24699300EDCDA2 /* CityDescribe.h */,
+				64B0B7E31B24699300EDCDA2 /* CityDescribe.m */,
+				64B0B7D91B245E3400EDCDA2 /* CityWeather.h */,
+				64B0B7DA1B245E3400EDCDA2 /* CityWeather.m */,
+				647F37601B245B6B00FBA5BC /* Video.h */,
+				647F37611B245B6B00FBA5BC /* Video.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		647F372B1B245AC500FBA5BC /* JYSaxXmlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647F374F1B245AC500FBA5BC /* Build configuration list for PBXNativeTarget "JYSaxXmlDemo" */;
+			buildPhases = (
+				647F37281B245AC500FBA5BC /* Sources */,
+				647F37291B245AC500FBA5BC /* Frameworks */,
+				647F372A1B245AC500FBA5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYSaxXmlDemo;
+			productName = JYSaxXmlDemo;
+			productReference = 647F372C1B245AC500FBA5BC /* JYSaxXmlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		647F37441B245AC500FBA5BC /* JYSaxXmlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647F37521B245AC500FBA5BC /* Build configuration list for PBXNativeTarget "JYSaxXmlDemoTests" */;
+			buildPhases = (
+				647F37411B245AC500FBA5BC /* Sources */,
+				647F37421B245AC500FBA5BC /* Frameworks */,
+				647F37431B245AC500FBA5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				647F37471B245AC500FBA5BC /* PBXTargetDependency */,
+			);
+			name = JYSaxXmlDemoTests;
+			productName = JYSaxXmlDemoTests;
+			productReference = 647F37451B245AC500FBA5BC /* JYSaxXmlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		647F37241B245AC500FBA5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = wei_jingyun;
+				TargetAttributes = {
+					647F372B1B245AC500FBA5BC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					647F37441B245AC500FBA5BC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 647F372B1B245AC500FBA5BC;
+					};
+				};
+			};
+			buildConfigurationList = 647F37271B245AC500FBA5BC /* Build configuration list for PBXProject "JYSaxXmlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 647F37231B245AC500FBA5BC;
+			productRefGroup = 647F372D1B245AC500FBA5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				647F372B1B245AC500FBA5BC /* JYSaxXmlDemo */,
+				647F37441B245AC500FBA5BC /* JYSaxXmlDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		647F372A1B245AC500FBA5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647F373B1B245AC500FBA5BC /* Main.storyboard in Resources */,
+				647F37401B245AC500FBA5BC /* LaunchScreen.xib in Resources */,
+				647F373D1B245AC500FBA5BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647F37431B245AC500FBA5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		647F37281B245AC500FBA5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647F37381B245AC500FBA5BC /* ViewController.m in Sources */,
+				64B0B7E11B24680B00EDCDA2 /* SAXOne.m in Sources */,
+				64B0B7ED1B24879C00EDCDA2 /* NSDictionary+JYSAX.m in Sources */,
+				64B0B7DB1B245E3400EDCDA2 /* CityWeather.m in Sources */,
+				647F375C1B245AE200FBA5BC /* JYSaxConst.m in Sources */,
+				64B0B7E71B246AAE00EDCDA2 /* SAXOther.m in Sources */,
+				647F37351B245AC500FBA5BC /* AppDelegate.m in Sources */,
+				64B0B7F01B2495A000EDCDA2 /* Hehe.m in Sources */,
+				64B0B7EA1B24782100EDCDA2 /* NSString+SEL.m in Sources */,
+				64B0B7E41B24699300EDCDA2 /* CityDescribe.m in Sources */,
+				647F37321B245AC500FBA5BC /* main.m in Sources */,
+				647F37621B245B6B00FBA5BC /* Video.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647F37411B245AC500FBA5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647F374C1B245AC500FBA5BC /* JYSaxXmlDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		647F37471B245AC500FBA5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 647F372B1B245AC500FBA5BC /* JYSaxXmlDemo */;
+			targetProxy = 647F37461B245AC500FBA5BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		647F37391B245AC500FBA5BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647F373A1B245AC500FBA5BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		647F373E1B245AC500FBA5BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647F373F1B245AC500FBA5BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		647F374D1B245AC500FBA5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		647F374E1B245AC500FBA5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		647F37501B245AC500FBA5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYSaxXmlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		647F37511B245AC500FBA5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYSaxXmlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		647F37531B245AC500FBA5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JYSaxXmlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYSaxXmlDemo.app/JYSaxXmlDemo";
+			};
+			name = Debug;
+		};
+		647F37541B245AC500FBA5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JYSaxXmlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYSaxXmlDemo.app/JYSaxXmlDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		647F37271B245AC500FBA5BC /* Build configuration list for PBXProject "JYSaxXmlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647F374D1B245AC500FBA5BC /* Debug */,
+				647F374E1B245AC500FBA5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647F374F1B245AC500FBA5BC /* Build configuration list for PBXNativeTarget "JYSaxXmlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647F37501B245AC500FBA5BC /* Debug */,
+				647F37511B245AC500FBA5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647F37521B245AC500FBA5BC /* Build configuration list for PBXNativeTarget "JYSaxXmlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647F37531B245AC500FBA5BC /* Debug */,
+				647F37541B245AC500FBA5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 647F37241B245AC500FBA5BC /* Project object */;
+}
