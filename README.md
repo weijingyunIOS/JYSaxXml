@@ -3,7 +3,7 @@
 导入头文件 #import "JYSaxXml.h"
 
 
-1. 解析如下xml
+1. 解析如下xml 全部子标签构成
 
 ![xml1](http://images.cnblogs.com/cnblogs_com/weijingyun/698861/o_Snip20150608_3.png)
 
@@ -18,12 +18,14 @@
              self.dataList =dataList ;
         }];
 
-2. 解析如下xml
 
-![xml1](http://images.cnblogs.com/cnblogs_com/weijingyun/698861/o_Snip20150608_4.png)
+2.解析软下Xml 属性全在属性列表
+
+![xml2](http://images.cnblogs.com/cnblogs_com/weijingyun/698861/o_Snip20150608_4.png)
+
 
 
 
 3. 解析如下xml
 
-![xml1](http://images.cnblogs.com/cnblogs_com/weijingyun/698861/o_Snip20150608_5.png)
+![xml3](http://images.cnblogs.com/cnblogs_com/weijingyun/698861/o_Snip20150608_5.png)
