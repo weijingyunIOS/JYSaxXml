@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self loadData1];
+    [self loadData3];
 }
 
 
@@ -41,6 +41,7 @@
         [dic saxOtherparserWithdata:data finished:^(NSArray *dataList) {
             // 主线程回调
             self.dataList = dataList;
+            
         }];
 
         
@@ -72,9 +73,11 @@
         
         // 3. 解析器开始解析 - 后续的解析工作全部由代理完成
         
+        // 重要
         NSDictionary *dic = @{JYmainClassNode : @"video" , @"video" :[Video class] };
         
         [dic saxOneparserWithdata:data finished:^(NSArray *dataList) {
+            // 将返回的 模型数组 传回来
              self.dataList =dataList ;
             
         }];

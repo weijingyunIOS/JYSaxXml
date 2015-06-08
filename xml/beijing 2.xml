@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<hh>
+
+<chakan name="beijing"  hh="asd"  qq = "cc">
+    <city cityX="232" cityY="190.8" cityname="延庆" centername="延庆" fontColor="FFFFFF"/>
+    <city cityX="394" cityY="157" cityname="密云" centername="密云" fontColor="FFFFFF"/>
+    <city cityX="332" cityY="142" cityname="怀柔" centername="怀柔" fontColor="FFFFFF"/>
+    <city cityX="261" cityY="248" cityname="昌平" centername="昌平" fontColor="FFFFFF"/>
+ 
+ <hehe qq = "sds" ww = "lll"/>
+ <hehe qq = "sds" ww = "lll"/>
+ 
+</chakan>
+
+<chakan name="changsha"  hh="asd"  qq = "cc">
+    <city cityX="2321" cityY="190.8" cityname="延庆11" centername="延庆" fontColor="FFFFFF"/>
+    <city cityX="3941" cityY="157" cityname="密云11" centername="密云" fontColor="FFFFFF"/>
+    <city cityX="3321" cityY="142" cityname="怀柔11" centername="怀柔" fontColor="FFFFFF"/>
+    <city cityX="2611" cityY="248" cityname="昌平11" centername="昌平" fontColor="FFFFFF"/>
+    
+    <hehe qq = "sds" ww = "lll"/>
+    <hehe qq = "sds" ww = "lll"/>
+    
+</chakan>
+
+</hh>
