@@ -14,8 +14,9 @@
 (2) 代码
    // 重要  JYmainClassNode 表示选取的根节点内的数据转为模型
    //  @"video" :[Video class] 表示节点 @"video" 对应的模型类为 Video
+   
+   
         NSDictionary *dic = @{JYmainClassNode : @"video" , @"video" :[Video class] };
-        
         [dic saxOneparserWithdata:data finished:^(NSArray *dataList) {
             // 将返回的 模型数组 传回来
              self.dataList =dataList ;
